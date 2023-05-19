@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>HTTP_Project</display-name>
+  <welcome-file-list>
+    <welcome-file>CheckRecords.html</welcome-file>
+  </welcome-file-list>
+   <servlet-mapping>
+  <servlet-name>Check_Data</servlet-name>
+  <url-pattern>/data</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Check_Data</servlet-name>
+  <servlet-class>database.check.data.Check_Data</servlet-class>
+  </servlet>
+  
+  
+  
+</web-app>

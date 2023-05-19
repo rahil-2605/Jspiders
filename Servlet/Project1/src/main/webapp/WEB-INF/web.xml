@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Project1</display-name>
+  <welcome-file-list>
+    <welcome-file>Student.html</welcome-file>
+    
+  </welcome-file-list>
+  
+    
+  <servlet-mapping>
+  <servlet-name>Student_Records</servlet-name>
+  <url-pattern>/test3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Student_Records</servlet-name>
+  <servlet-class>org.ty.app.Student_Records</servlet-class>
+  </servlet>
+  
+</web-app>
